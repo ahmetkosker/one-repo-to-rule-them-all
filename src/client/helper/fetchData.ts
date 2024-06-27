@@ -12,7 +12,7 @@ export const fetchData = async (
       `${process.env.API_URL}${url}?${queryString}`,
       {
         headers: {
-          Authorization: `Bearer ${process.env.AUTH_TOKEN}`,
+          Authorization: `Bearer ${process.env.API_KEY}`,
           "Content-Type": "application/json",
         },
       },

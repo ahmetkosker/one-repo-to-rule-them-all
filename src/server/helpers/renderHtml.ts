@@ -33,6 +33,5 @@ export function renderHtml(
     </html>
   `;
 
-  console.log("Generated HTML:", html); 
   return html;
 }
