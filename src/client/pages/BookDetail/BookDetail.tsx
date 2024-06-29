@@ -7,7 +7,7 @@ interface BookProps {
 
 const BookDetail: React.FC<BookProps> = ({ data }) => {
   console.log(data);
-  return <div></div>;
+  return <div>asdasdasd</div>;
 };
 
 export default BookDetail;

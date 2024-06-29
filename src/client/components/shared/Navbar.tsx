@@ -20,20 +20,6 @@ const Navbar = () => {
             />
           </div>
           <div className="hidden md:flex">
-            <div className="flex items-center justify-center mr-12">
-              <button
-                className="rounded-md px-3 py-2 text-white hover:bg-gray-700"
-                onClick={() => changeLanguage("en")}
-              >
-                EN
-              </button>
-              <button
-                className="rounded-md px-3 py-2 text-white hover:bg-gray-700"
-                onClick={() => changeLanguage("fr")}
-              >
-                FR
-              </button>
-            </div>
             <a
               href="/"
               className="rounded-md px-3 py-2 text-white hover:bg-gray-700"
@@ -53,10 +39,10 @@ const Navbar = () => {
               Movies
             </a>
             <a
-              href="#"
+              href="/character"
               className="rounded-md px-3 py-2 text-white hover:bg-gray-700"
             >
-              Contact
+              Characters
             </a>
           </div>
         </div>
