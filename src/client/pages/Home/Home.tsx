@@ -1,44 +1,30 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import Navbar from "../../components/shared/Navbar";
 
 const Home: React.FC = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
-    <nav className="bg-gray-800 p-4">
-      <div className="mx-auto max-w-7xl">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center">
-            <div className="text-xl font-bold text-white">Logo</div>
-          </div>
-          <div className="hidden md:flex">
-            <a
-              href="#"
-              className="rounded-md px-3 py-2 text-white hover:bg-gray-700"
-            >
-              Home
-            </a>
-            <a
-              href="#"
-              className="rounded-md px-3 py-2 text-white hover:bg-gray-700"
-            >
-              About
-            </a>
-            <a
-              href="#"
-              className="rounded-md px-3 py-2 text-white hover:bg-gray-700"
-            >
-              Services
-            </a>
-            <a
-              href="#"
-              className="rounded-md px-3 py-2 text-white hover:bg-gray-700"
-            >
-              Contact
-            </a>
-          </div>
-        </div>
+    <section className="min-h-screen bg-gray-100">
+      <Navbar />
+      <div className="mx-auto mt-10 max-w-4xl rounded-lg bg-white p-6 shadow-lg">
+        <h1 className="mb-6 text-center text-4xl font-bold text-gray-800">
+          About This Page
+        </h1>
+        <p className="mb-4 text-lg text-gray-600">
+          This page is created using Node.js for server-side rendering (SSR).
+        </p>
+        <p className="mb-4 text-lg text-gray-600">
+          Server-side rendering (SSR) is a method to generate HTML from React
+          components on the server, improving performance and SEO.
+        </p>
+        <p className="text-lg text-gray-600">
+          Data on this page is fetched from the Lord of the Rings API,
+          showcasing the flexibility and power of combining different
+          technologies
+        </p>
       </div>
-    </nav>
+    </section>
   );
 };
 

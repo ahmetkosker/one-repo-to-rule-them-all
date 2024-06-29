@@ -1,4 +1,6 @@
 {
-  "welcomeMessage": "Bienvenue sur notre site!",
-  "introduction": "Ceci est un exemple de texte d'introduction."
+  "aboutTitle": "À propos de cette page",
+  "aboutDescription": "Cette page est créée en utilisant Node.js pour le rendu côté serveur (SSR).",
+  "ssrDescription": "Le rendu côté serveur (SSR) est une méthode pour générer du HTML à partir de composants React sur le serveur, améliorant ainsi les performances et le référencement.",
+  "apiDescription": "Les données de cette page sont récupérées à partir de l'API du Seigneur des Anneaux, mettant en avant la flexibilité et la puissance de la combinaison de différentes technologies."
 }
